@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo Board</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="square red">
+            <div class="inner">
+                <div class="circle1">
+                    <div id="redcircle" class="circle"></div><br><br><br>
+                    <div id="redcircle" class="circle"></div>
+                </div>
+                <div class="circle2">
+                    <div id="redcircle" class="circle"></div><br><br><br>
+                    <div id="redcircle" class="circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="square blue">
+            <div class="inner">
+                <div class="circle1">
+                    <div id="bluecircle" class="circle"></div><br><br><br>
+                    <div id="bluecircle" class="circle"></div>
+                </div>
+                <div class="circle2">
+                    <div id="bluecircle" class="circle"></div><br><br><br>
+                    <div id="bluecircle" class="circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="square green">
+            <div class="inner">
+                <div class="circle1">
+                    <div id="greencircle" class="circle"></div><br><br><br>
+                    <div id="greencircle" class="circle"></div>
+                </div>
+                <div class="circle2">
+                    <div id="greencircle" class="circle"></div><br><br><br>
+                    <div id="greencircle" class="circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="square yellow">
+            <div class="inner">
+                <div class="circle1">
+                    <div id="yellowcircle" class="circle"></div><br><br><br>
+                    <div id="yellowcircle" class="circle"></div>
+                </div>
+                <div class="circle2">
+                    <div id="yellowcircle" class="circle"></div><br><br><br>
+                    <div id="yellowcircle" class="circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="home">
+             Congratulations! <br> 
+             &nbsp; &nbsp; &nbsp; &nbsp; Home
+        </div>
+        <div class="cell" id="cell1">
+            <div class="path">
+                <div class="steps"></div>
+                <div class="steps"></div>
+                <div class="steps">
+                    <i class="ri-star-line"></i>
+                </div>
+                <div class="steps"></div>
+                <div class="steps"></div>
+                <div class="steps"></div>
+            </div>
+            <div class="path">
+                <div class="steps"></div>
+                <div class="steps" id="yellowcircle"></div>
+                <div class="steps"id="yellowcircle"></div>
+                <div class="steps"id="yellowcircle"></div>
+                <div class="steps"id="yellowcircle"></div>
+                <div class="steps"id="yellowcircle"></div>
+            </div>
+            <div class="path">
+                <div class="steps"></div>
+                <div class="steps" id="yellowcircle"> <i class="ri-star-fill"></i></div>
+                <div class="steps"></div>
+                <div class="steps"></div>
+                <div class="steps"></div>
+                <div class="steps"></div>
+            </div>
+        </div>
+        <div class="cell" id="cell2">
+            <div class="path">
+                <div class="steps"></div>
+                <div class="steps"></div>
+                <div class="steps"></div>
+                <div class="steps"></div>
+                <div class="steps" id="bluecircle"> <i class="ri-star-fill"></i></div>
+                <div class="steps"></div>
+            </div>
+            <div class="path">
+                <div class="steps" id="bluecircle"></div>
+                <div class="steps" id="bluecircle"></div>
+                <div class="steps" id="bluecircle"></div>
+                <div class="steps" id="bluecircle"></div>
+                <div class="steps" id="bluecircle"></div>
+                <div class="steps" ></div>
+            </div>
+            <div class="path">
+                <div class="steps"></div>
+                <div class="steps"></div>
+                <div class="steps"></div>
+                <div class="steps">
+                    <i class="ri-star-line"></i>
+                </div>
+                <div class="steps"></div>
+                <div class="steps"></div>
+            </div>
+        </div>
+        <div class="cell" id="cell3">
+            <div class="path" id="paths">
+                <div class="lrsteps"></div>
+                <div class="lrsteps" id="redcircle"><i class="ri-star-fill"></i></div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+            </div>
+            <div class="path" id="paths">
+                <div class="lrsteps" ></div>
+                <div class="lrsteps" id="redcircle"></div>
+                <div class="lrsteps" id="redcircle"></div>
+                <div class="lrsteps" id="redcircle"></div>
+                <div class="lrsteps" id="redcircle"></div>
+                <div class="lrsteps" id="redcircle"></div>
+            </div>
+            <div class="path" id="paths">
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps">
+                    <i class="ri-star-line"></i>
+                </div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+            </div>
+        </div>
+        <div class="cell" id="cell4">
+            <div class="path" id="paths">
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps">
+                    <i class="ri-star-line"></i>
+                </div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+            </div>
+            <div class="path" id="paths">
+                <div class="lrsteps" id="greencircle"></div>
+                <div class="lrsteps" id="greencircle"></div>
+                <div class="lrsteps" id="greencircle"></div>
+                <div class="lrsteps" id="greencircle"></div>
+                <div class="lrsteps" id="greencircle"></div>
+                <div class="lrsteps"></div>
+            </div>
+            <div class="path" id="paths">
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps"></div>
+                <div class="lrsteps" id="greencircle"><i class="ri-star-fill"></i></div>
+                <div class="lrsteps"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

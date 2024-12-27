@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    position: relative;
+    height: 700px;
+    width: 700px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    background-color: red;
+    top: 0;
+    left: 0;;
+}
+.blue{
+    background-color:blue;
+    bottom: 0;
+    left: 0;
+}
+.green{
+    background-color:green;
+    bottom: 0;
+    right: 0;
+}
+.yellow{
+    background-color: yellow;
+    top: 0;
+    right: 0;
+}
+.inner{
+    position: relative;
+    background-color: white;
+    height: 180px;
+    width: 180px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#redcircle{
+    background-color: red;
+}
+#bluecircle{
+    background-color: blue;
+}
+#greencircle{
+    background-color:green;
+}
+#yellowcircle{
+    background-color: yellow;
+}
+.home{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    font-family: 'Gill Sans';
+    font-size: x-large;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color:rgb(0, 221, 255);
+}
+.cell{
+    position:absolute;
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#cell1{
+    top: 0;
+}
+#cell2{
+    bottom: 0;;
+}
+#cell3{
+    left: 0;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+#cell4{
+    right: 0;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.path{
+    height: 250px;
+    width: 66px;
+    border: 1px solid black;
+}
+#paths{
+width: 250px;
+display: flex;
+flex-direction: row;
+}
+.steps{
+    border: 1px solid black;
+    height: 41.5px;
+    width: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lrsteps{
+    border: 1px solid black;
+    height: 66px;
+    width: 41.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
